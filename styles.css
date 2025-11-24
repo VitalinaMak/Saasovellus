@@ -1,0 +1,175 @@
+body {
+  background-image: url(backgroundSky.jpg);
+  background-color: rgb(150, 196, 234);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+h1,
+#container {
+  margin-left: 15px;
+}
+
+#container {
+  display: grid;
+  grid-template-areas:
+    "searchlabel searchlabel searchlabel searchlabel"
+    "kaupunki1 kaupunki2 kaupunki3 kaupunki4"
+    "moreInfo moreInfo moreInfo moreInfo";
+  grid-gap: 10px;
+  margin: 0px 10px 0px 10px;
+  padding: 0px 15px 0px 5px;
+}
+
+h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 76;
+  font-family: serif;
+  color: white;
+}
+
+h2 {
+  font-size: 45;
+  font-family: serif;
+  color: white;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+#searchField {
+  grid-area: searchlabel;
+  width: 460px;
+}
+
+::placeholder {
+  color: #71879a;
+  font-size: 18px;
+}
+
+input {
+  height: 35px;
+  padding-left: 14px;
+  background-color: rgb(255, 237, 216);
+  color: #3a4c5c;
+  font-size: 18;
+  border: 0px;
+  margin-right: 5px;
+  margin-bottom: 4px;
+}
+
+button {
+  height: 35px;
+  background-color: bisque;
+  color: #056c73;
+  font-size: 18;
+  font-weight: 350;
+  border-color: bisque;
+  border-radius: 3px;
+}
+
+button:hover {
+  background-color: rgb(255, 234, 208);
+}
+
+button:active {
+  background-color: rgb(245, 211, 169);
+}
+
+#kaupunki1,
+#kaupunki2,
+#kaupunki3,
+#kaupunki4 {
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  padding: 15px 13px 15px 27px;
+  border: rgb(50, 59, 105) solid 0.7px;
+  width: 335px;
+  height: 400px;
+}
+
+#kaupunki1 p,
+#kaupunki2 p,
+#kaupunki3 p,
+#kaupunki4 p {
+  color: white;
+}
+
+#kaupunki1 {
+  grid-area: kaupunki1;
+}
+
+#kaupunki2 {
+  grid-area: kaupunki2;
+}
+
+#kaupunki3 {
+  grid-area: kaupunki3;
+}
+
+#kaupunki4 {
+  grid-area: kaupunki4;
+}
+
+.kaupungit.active {
+  box-shadow: 0 0 7px 3px #c6e6fc9d;
+  border-color: #056c73;
+}
+
+/* container for lisaTietoa */
+#moreInfo {
+  grid-area: moreInfo;
+  padding-left: 17px;
+  background-color: #c6fcf658;
+}
+
+#moreInfo p {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  color: #056c73;
+  font-size: 22;
+}
+
+#moreInfo h3 {
+  font-size: 26;
+  text-decoration: underline;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: 2A5A8B;
+}
+
+.lampo {
+  margin-top: 187px;
+  /*   margin-bottom: 13px; */
+  font-size: 40;
+  font-weight: bolder;
+  color: white;
+}
+
+.kuvaus {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.tuuli {
+  position: relative;
+  font-size: 26px;
+  margin-top: 5px;
+  max-width: 95%;
+}
+
+.tuulenKuva {
+  display: block;
+  position: absolute;
+  right: 1px;
+  bottom: -8px;
+  width: 45px;
+}
+
+.aktiivinen {
+  box-shadow: 0 0 7px 3px #c6e6fc9d;
+  border-color: #056c73;
+}

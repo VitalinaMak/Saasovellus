@@ -1,0 +1,43 @@
+<html lang="fi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sääsivu</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+  </head>
+  <body>
+    <h1>Sää tänään</h1>
+    <div id="container">
+      <div id="searchField">
+        <input id="etsiKaupunki" placeholder="Anna kaupungin nimi" />
+        <button id="hae">Hae sää</button>
+      </div>
+
+      <div id="tulos"></div>
+
+      <div class="kaupungit" id="kaupunki1" onclick="lisaTietoa(1)">
+        <h2 class="kaupunginNimi">Raahe</h2>
+        <div id="ekaKaupunki"></div>
+      </div>
+
+      <div class="kaupungit" id="kaupunki2" onclick="lisaTietoa(2)">
+        <h2 class="kaupunginNimi">Girona</h2>
+        <p id="tokaKaupunki"></p>
+      </div>
+
+      <div class="kaupungit" id="kaupunki3" onclick="lisaTietoa(3)">
+        <h2 class="kaupunginNimi">Bryssel</h2>
+        <p id="kolmasKaupunki"></p>
+      </div>
+
+      <div class="kaupungit" id="kaupunki4" onclick="lisaTietoa(4)">
+        <h2 class="kaupunginNimi">Zlin</h2>
+        <p id="neljasKaupunki"></p>
+      </div>
+
+      <div id="moreInfo"></div>
+    </div>
+    <script src="Koodi.js"></script>
+  </body>
+</html>
