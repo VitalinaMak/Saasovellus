@@ -162,21 +162,17 @@ button:active {
 
 .tuuli {
   position: relative;
-  font-size: 20px;
+  font-size: 22px;
   margin-top: 5px;
   margin-bottom: 5px;
   max-width: 95%;
 }
 
 .tuulenKuva {
-  display: inline-block;
-  vertical-align: middle;
-  /* margin-top: 5px; */
+  display: block;
+  margin-top: 7px;
   margin-left: 3%;
-  /* position: absolute; */
-  /* right: 0px;
-  bottom: -9px; */
-  max-width: 30px;
+  max-width: 37px;
 }
 
 .aktiivinen {
