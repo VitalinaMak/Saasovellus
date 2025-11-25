@@ -14,6 +14,7 @@ h1,
 
 #container {
   display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-areas:
     "searchlabel searchlabel searchlabel searchlabel"
     "kaupunki1 kaupunki2 kaupunki3 kaupunki4"
@@ -98,6 +99,7 @@ button:active {
 #kaupunki3 p,
 #kaupunki4 p {
   color: white;
+  margin-bottom: 10px;
 }
 
 #kaupunki1 {
@@ -145,7 +147,7 @@ button:active {
 }
 
 .lampo {
-  margin-top: clamp(70%, 170px, 190px); /* 180px */
+  margin-top: clamp(100px, 175px, 195px); /* 180px */
   /* margin-bottom: 5%; */
   font-size: 38;
   font-weight: bolder;
@@ -161,7 +163,7 @@ button:active {
   position: relative;
   font-size: 22px;
   margin-top: 5px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   max-width: 95%;
 }
 
