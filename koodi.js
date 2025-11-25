@@ -158,7 +158,7 @@ async function lisaTietoa(id) {
   } else if ((windDir >= 157.25) && (windDir < 202.25)) {
     tuulenKuvaus = "Etelätuuli "
   } else if ((windDir >= 202.25) && (windDir < 247.25)) {
-    tuulenKuvaus = "Llounaistuuli "
+    tuulenKuvaus = "Lounaistuuli "
   } else if ((windDir >= 247.25) && (windDir < 292.25)) {
     tuulenKuvaus = "Länsituuli "
   } else if ((windDir >= 292.25) && (windDir < 337.25)) {
