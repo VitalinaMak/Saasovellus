@@ -145,7 +145,7 @@ button:active {
 }
 
 .lampo {
-  margin-top: 70%; /* 180px */
+  margin-top: clamp(70%, 170px, 190px); /* 180px */
   /* margin-bottom: 5%; */
   font-size: 38;
   font-weight: bolder;
@@ -161,7 +161,7 @@ button:active {
   position: relative;
   font-size: 22px;
   margin-top: 5px;
-  margin-bottom: 3%; /* 15px */
+  margin-bottom: 15px;
   max-width: 95%;
 }
 
