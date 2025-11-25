@@ -26,7 +26,7 @@ h1,
 h1 {
   margin-top: 10px;
   margin-bottom: 10px;
-  font-size: 70;
+  font-size: 68;
   font-family: serif;
   color: white;
 }
@@ -50,18 +50,19 @@ h2 {
 }
 
 input {
-  height: 35px;
+  height: 30px;
+  max-width: 90%;
   padding-left: 14px;
   background-color: rgb(255, 237, 216);
   color: #3a4c5c;
-  font-size: 18;
+  font-size: 16;
   border: 0px;
   margin-right: 5px;
   margin-bottom: 4px;
 }
 
 button {
-  height: 35px;
+  height: 30px;
   background-color: bisque;
   color: #056c73;
   font-size: 18;
@@ -88,7 +89,8 @@ button:active {
   padding: 15px 17px 15px 20px;
   border: rgb(50, 59, 105) solid 0.7px;
   width: 85%;
-  max-height: 360px;
+  /*  height: fit-content; */
+  max-height: 525px;
 }
 
 #kaupunki1 p,
@@ -143,8 +145,8 @@ button:active {
 }
 
 .lampo {
-  margin-top: 190px;
-  margin-bottom: 20px;
+  margin-top: 70%; /* 180px */
+  /* margin-bottom: 5%; */
   font-size: 38;
   font-weight: bolder;
   color: white;
@@ -159,7 +161,7 @@ button:active {
   position: relative;
   font-size: 22px;
   margin-top: 5px;
-  margin-bottom: 20px;
+  margin-bottom: 3%; /* 15px */
   max-width: 95%;
 }
 
@@ -170,7 +172,7 @@ button:active {
   /* position: absolute; */
   /* right: 0px;
   bottom: -9px; */
-  max-width: 40px;
+  max-width: 35px;
 }
 
 .aktiivinen {
