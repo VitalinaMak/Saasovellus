@@ -87,8 +87,8 @@ button:active {
   background-size: cover;
   padding: 15px 17px 15px 20px;
   border: rgb(50, 59, 105) solid 0.7px;
-  width: 310px;
-  height: 380px;
+  width: 85%;
+  max-height: 370px;
 }
 
 #kaupunki1 p,
@@ -122,6 +122,7 @@ button:active {
 /* container for lisaTietoa */
 #moreInfo {
   grid-area: moreInfo;
+  max-width: 100%;
   padding-left: 17px;
   background-color: #c6fcf658;
 }
@@ -142,9 +143,9 @@ button:active {
 }
 
 .lampo {
-  margin-top: 187px;
-  /*   margin-bottom: 13px; */
-  font-size: 40;
+  margin-top: 190px;
+  margin-bottom: 25px;
+  font-size: 38;
   font-weight: bolder;
   color: white;
 }
@@ -156,17 +157,17 @@ button:active {
 
 .tuuli {
   position: relative;
-  font-size: 26px;
+  font-size: 24px;
   margin-top: 5px;
-  max-width: 100%;
+  max-width: 95%;
 }
 
 .tuulenKuva {
   display: block;
   position: absolute;
   right: 0px;
-  bottom: -5px;
-  width: 40px;
+  bottom: -9px;
+  max-width: 40px;
 }
 
 .aktiivinen {
