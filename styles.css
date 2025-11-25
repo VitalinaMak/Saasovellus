@@ -26,13 +26,13 @@ h1,
 h1 {
   margin-top: 10px;
   margin-bottom: 10px;
-  font-size: 76;
+  font-size: 70;
   font-family: serif;
   color: white;
 }
 
 h2 {
-  font-size: 45;
+  font-size: 38;
   font-family: serif;
   color: white;
   margin-bottom: 30px;
@@ -85,10 +85,10 @@ button:active {
   background-repeat: no-repeat;
   position: relative;
   background-size: cover;
-  padding: 15px 13px 15px 27px;
+  padding: 15px 17px 15px 20px;
   border: rgb(50, 59, 105) solid 0.7px;
-  width: 335px;
-  height: 400px;
+  width: 310px;
+  height: 380px;
 }
 
 #kaupunki1 p,
@@ -158,15 +158,15 @@ button:active {
   position: relative;
   font-size: 26px;
   margin-top: 5px;
-  max-width: 95%;
+  max-width: 100%;
 }
 
 .tuulenKuva {
   display: block;
   position: absolute;
-  right: 1px;
-  bottom: -8px;
-  width: 45px;
+  right: 0px;
+  bottom: -5px;
+  width: 40px;
 }
 
 .aktiivinen {
